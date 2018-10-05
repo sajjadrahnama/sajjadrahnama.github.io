@@ -1,0 +1,26 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "My Personal Homepage",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [
+    "Sajjad",
+    "Rahnama"
+  ],
+  "author": "Sajjad Rahnama <sajjad.rahnama7@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "expose-loader": "^0.7.3",
+    "file-loader": "^1.1.4",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
