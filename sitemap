@@ -3,9 +3,9 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
   xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url> 
-    <loc>http://ceit.aut.ac.ir/~sajjad</loc>
+    <loc>https://sajjadrahnama.com</loc>
     <image:image>
-       <image:loc>http://ceit.aut.ac.ir/~sajjad/assets/images/profile.jpg</image:loc>
+       <image:loc>https://sajjadrahnama.com/assets/images/profile.jpg</image:loc>
        <image:caption>Sajjad Rahnama</image:caption>
     </image:image>
   </url>
