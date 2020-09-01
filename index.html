@@ -4,28 +4,29 @@ Author URL: http://ceit.aut.ac.ir/~sajjad
 -->
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Sajjad Rahnama's Personal Page</title>
     <!--mobile apps-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Sajjad Rahnama, Sajjad, Rahnama, سجاد, رهنما, Sajjad Rahnama Homepage,UC Davis, University of California Davis, Ph.D., PhD Candidate,
-     سجاد رهنما, CEIT, Amirkabir University, Blockchain, Distributed Systems, Expo Lab,  Computer Department,"/>
-    <script type="application/x-javascript"> addEventListener("load", function () {
-        setTimeout(hideURLbar, 0);
-    }, false);
+     سجاد رهنما, CEIT, Amirkabir University, Blockchain, Distributed Systems, Expo Lab,  Computer Department," />
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
 
-    function hideURLbar() {
-        window.scrollTo(0, 1);
-    } </script>
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <!--mobile apps-->
 
     <!--web-fonts-->
-    <link href='https://fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic'
-          rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic'
-          rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <!--//web-fonts-->
 
 
@@ -33,7 +34,10 @@ Author URL: http://ceit.aut.ac.ir/~sajjad
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108074988-5"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-108074988-5');
@@ -44,155 +48,187 @@ Author URL: http://ceit.aut.ac.ir/~sajjad
     <script src="dist/vendor.js"></script>
     <script src="dist/app.js"></script>
     <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-            $(".scroll").click(function (event) {
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
                 event.preventDefault();
-                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
             });
         });
     </script>
     <!--//end-smooth-scrolling-->
 </head>
+
 <body>
-<!--banner-->
-<div id="home" class="banner">
-    <div class="banner-info">
-        <div class="container">
-            <div class="col-md-4 header-left">
-                <img src="assets/images/profile.jpg" alt="Sajjad Rahnama"/>
-            </div>
-            <div class="col-md-8 header-right">
-                <!--<h2>Hello</h2>-->
-                I'm <h1>Sajjad Rahnama</h1>
-                <h6>Computer Science Ph.D. Student</h6>
-                <ul class="address">
-                    <li>
-                        <ul class="address-text">
-                            <li><b>E-MAIL </b></li>
-                            <li><a href="mailto:sajjad@ucdavis.edu"> sajjad@ucdavis.edu</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul class="address-text">
-                            <li><b>LINKEDIN </b></li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/sajjadrahnama/">
-                                    <img style="width: 20px" src="assets/images/in.svg" alt="">
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul class="address-text">
-                            <li><b>DBLP </b></li>
-                            <li>
-                                <a href="https://dblp.uni-trier.de/pers/hd/r/Rahnama:Sajjad">
-                                    <img style="width: 100px" src="assets/images/dblp.png" alt="">
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul class="address-text">
-                            <li><b>WEBSITE </b></li>
-                            <li><a href="https://sajjadrahnama.com">sajjadrahnama.com</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</div>
-<!--//banner-->
-<!--top-nav-->
-<div class="top-nav wow">
-    <div class="container">
-        <div class="navbar-header logo">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
-                Menu
-            </button>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <div class="menu">
-                <ul class="nav navbar">
-                    <li><a href="#about" class="scroll">About</a></li>
-                    <li><a href="#education" class="scroll">Education</a></li>
-                    <!--<li><a href="#work" class="scroll">Experience</a></li>-->
-                    <!--<li><a href="#skills" class="scroll">Skills</a></li>-->
-                    <!-- <li><a href="#projects" class="scroll">My Projects</a></li> -->
-                    <li><a href="#contact" class="scroll">Contact</a></li>
-                </ul>
+    <!--banner-->
+    <div id="home" class="banner">
+        <div class="banner-info">
+            <div class="container">
+                <div class="col-md-4 header-left">
+                    <img src="assets/images/profile.jpg" alt="Sajjad Rahnama" />
+                </div>
+                <div class="col-md-8 header-right">
+                    <!--<h2>Hello</h2>-->
+                    I'm
+                    <h1>Sajjad Rahnama</h1>
+                    <h6>Computer Science Ph.D. Student</h6>
+                    <ul class="address">
+                        <li>
+                            <ul class="address-text">
+                                <li><b>E-MAIL </b></li>
+                                <li><a href="mailto:sajjad@ucdavis.edu"> sajjad@ucdavis.edu</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="address-text">
+                                <li><b>LINKEDIN </b></li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/sajjadrahnama/">
+                                        <img style="width: 20px" src="assets/images/in.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="address-text">
+                                <li><b>DBLP </b></li>
+                                <li>
+                                    <a href="https://dblp.uni-trier.de/pers/hd/r/Rahnama:Sajjad">
+                                        <img style="width: 100px" src="assets/images/dblp.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="address-text">
+                                <li><b>WEBSITE </b></li>
+                                <li><a href="https://sajjadrahnama.com">sajjadrahnama.com</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
                 <div class="clearfix"></div>
             </div>
         </div>
     </div>
-</div>
-<!--//top-nav-->
-<!--about-->
-<div id="about" class="about">
-    <div class="container">
-        <h3 class="title"> About Me</h3>
-        <div class="col-md-12 about-part">
-            <p>
-                I am Sajjad Rahnama, Ph.D. student at <a href="http://www.cs.ucdavis.edu/" target="_blank">Computer Science Department</a> of
-                <a href="https://ucdavis.edu" target="_blank">University of California, Davis</a> supervised by Prof. <a href="https://msadoghi.github.io">Mohammad Sadoghi</a>. I’m also a member of
-                <a href="https://msadoghi.github.io">Exploratory Systems Lab</a>. I'm interested and working on Distributed Consensus protocols, Blockchain, and Databases.
-            </p>
-            <br>
+    <!--//banner-->
+    <!--top-nav-->
+    <div class="top-nav wow">
+        <div class="container">
+            <div class="navbar-header logo">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    Menu
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="menu">
+                    <ul class="nav navbar">
+                        <li><a href="#about" class="scroll">About</a></li>
+                        <li><a href="#education" class="scroll">Education</a></li>
+                        <!--<li><a href="#work" class="scroll">Experience</a></li>-->
+                        <!--<li><a href="#skills" class="scroll">Skills</a></li>-->
+                        <!-- <li><a href="#projects" class="scroll">My Projects</a></li> -->
+                        <li><a href="#contact" class="scroll">Contact</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-12 col-xs-12 about-part left">
-            <ul>
-                <h5>Topics Of Interest</h5>
-                <li><span class="glyphicon glyphicon-menu-right"></span> Byzantine Fault-tolerant Protocols</li>
-                <li><span class="glyphicon glyphicon-menu-right"></span> Geo Replicated BFT Consensus Protocols</li>
-                <li><span class="glyphicon glyphicon-menu-right"></span> Blockchain</li>
-                <li><span class="glyphicon glyphicon-menu-right"></span> Database Systems</li>
-                <li><span class="glyphicon glyphicon-menu-right"></span> Distributed Transaction Processing</li>
+    </div>
+    <!--//top-nav-->
+    <!--about-->
+    <div id="about" class="about" style="padding-bottom:0;">
+        <div class="container">
+            <h3 class="title"> About Me</h3>
+            <div class="col-md-12 about-part">
+                <p>
+                    I am Sajjad Rahnama, Ph.D. student at <a href="http://www.cs.ucdavis.edu/" target="_blank">Computer
+                        Science Department</a> of
+                    <a href="https://ucdavis.edu" target="_blank">University of California, Davis</a> supervised by Prof. <a href="https://msadoghi.github.io">Mohammad Sadoghi</a>. I’m also a member of
+                    <a href="https://msadoghi.github.io">Exploratory Systems Lab</a>. I'm interested and working on Distributed Consensus protocols, Blockchain, and Databases.
+                </p>
+                <br>
+            </div>
+            <div class="col-md-12 col-xs-12 about-part left">
+                <ul>
+                    <h5>Topics Of Interest</h5>
+                    <li><span class="glyphicon glyphicon-menu-right"></span> Byzantine Fault-tolerant Protocols</li>
+                    <li><span class="glyphicon glyphicon-menu-right"></span> Geo Replicated BFT Consensus Protocols</li>
+                    <li><span class="glyphicon glyphicon-menu-right"></span> Blockchain</li>
+                    <li><span class="glyphicon glyphicon-menu-right"></span> Database Systems</li>
+                    <li><span class="glyphicon glyphicon-menu-right"></span> Distributed Transaction Processing</li>
 
-            </ul>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+
+            <!--        <div class="col-md-4 col-xs-12 about-part right">-->
+            <!--            <ul>-->
+            <!--                <h5>Major Hobbies</h5>-->
+            <!--                <li><span class="glyphicon glyphicon-menu-right"></span> Listening to Alt Rock Music</li>-->
+            <!--                <li><span class="glyphicon glyphicon-menu-right"></span> Playing Drums</li>-->
+            <!--                <li><span class="glyphicon glyphicon-menu-right"></span> Hiking</li>-->
+            <!--            </ul>-->
+            <!--            <div class="clearfix"></div>-->
+            <!--        </div>-->
+
             <div class="clearfix"></div>
         </div>
-
-<!--        <div class="col-md-4 col-xs-12 about-part right">-->
-<!--            <ul>-->
-<!--                <h5>Major Hobbies</h5>-->
-<!--                <li><span class="glyphicon glyphicon-menu-right"></span> Listening to Alt Rock Music</li>-->
-<!--                <li><span class="glyphicon glyphicon-menu-right"></span> Playing Drums</li>-->
-<!--                <li><span class="glyphicon glyphicon-menu-right"></span> Hiking</li>-->
-<!--            </ul>-->
-<!--            <div class="clearfix"></div>-->
-<!--        </div>-->
-
-        <div class="clearfix"></div>
     </div>
-</div>
-<!--//about-->
+    <!--//about-->
 
-<!--about-->
-<div id="publications" class="about">
-    <div class="container">
-        <h3 class="title"> Publications</h3>
-        <div class="col-md-12 about-part">
-            <p style="display: list-item;list-style-type: disc;list-style-position: inside">
-                Sajjad Rahnama, Suyash Gupta, Jelle Hellings, Mohammad Sadoghi, ResilientDB: Global Scale Resilient Blockchain Fabric, <b>International Conference on Very Large Data Base (VLDB) 2020</b>
-                <a href="https://arxiv.org/abs/2002.00160">Paper</a>.
-            </p>
-            <p style="display: list-item;list-style-type: disc;list-style-position: inside">
-                S. Gupta, J. Hellings, T. Qadah, S. Rahnama and M. Sadoghi, Efficient Transaction Processing in Byzantine Fault Tolerant Environments, In International Workshop on High Performance Transaction Systems (Biennial), 2019.
-                <a href="assets/papers/hpts_abstract.pdf">Paper</a>
-            </p>
-            <br>
+    <!--about-->
+    <div id="publications" class="about">
+        <div class="container">
+            <h3 class="title"> Publications</h3>
+            <div class="col-md-12 about-part">
+                <p class="pub">
+                    Sajjad Rahnama, Suyash Gupta, Thamir M. Qadah, Jelle Hellings, Mohammad Sadoghi, Scalable, Resilient and Configurable Permissioned Blockchain Fabric, <b>International Conference on Very Large Data Base
+                        (VLDB) 2020</b> [
+                    <a href="http://www.vldb.org/pvldb/vol13/p2893-rahnama.pdf">Paper</a>, <a href="assets/slides/ResilientDB-Demo-VLDB2020.pptx">Slides</a>, <a href="https://youtu.be/By4Ga1Lemm4">Video</a> ]
+                </p>
+
+                <p class="pub">
+                    Suyash Gupta, Jelle Hellings, Sajjad Rahnama, Mohammad Sadoghi, Building High Throughput Permissioned Blockchain Fabrics: Challenges and Opportunities, <b>International Conference on Very
+                        Large Data Base (VLDB) 2020, Tutorial</b> [
+                    <a href="http://www.vldb.org/pvldb/vol13/p3441-gupta.pdf">Paper</a>, <a href="assets/slides/Tutorial-System-VLDB 2020.pptx">Slides</a>, <a href="https://www.youtube.com/watch?v=Jj6hVs1SF3E">Video</a>]
+                </p>
+                <p class="pub">
+                    Suyash Gupta, Jelle Hellings, Sajjad Rahnama, Mohammad Sadoghi, Tutorial: Blockchain Consensus Unraveled: Virtues and Limitations, <b>Distributed Event-Based Systems (DEBS) 2020, Tutorial</b> [
+                    <a href="https://2020.debs.org/pdf/debs20-2.pdf">Paper</a> ]
+                </p>
+
+                <p class="pub">
+                    Sajjad Rahnama, Suyash Gupta, Mohammad Sadoghi, Permissioned Blockchain Through the Looking Glass: Architectural and Implementation Lessons Learned, <b>International Conference on Distributed
+                        Computing Systems (ICDCS) 2020</b> [
+                    <a href="https://arxiv.org/abs/1911.09208">Paper</a>, <a href="assets/slides/EvalPaper.pdf">Slides</a>, <a href="https://youtu.be/lvftXtpxEEc">Video</a> ]
+                </p>
+
+                <p class="pub">
+                    Sajjad Rahnama, Suyash Gupta, Jelle Hellings, Mohammad Sadoghi, ResilientDB: Global Scale Resilient Blockchain Fabric, <b>International Conference on Very Large Data Base (VLDB) 2020 [<a
+                            href="https://vldb-repro.com/">pVLDB Reproducibility Badge</a> ]</b>[
+                    <a href="http://www.vldb.org/pvldb/vol13/p868-gupta.pdf">Paper</a>, <a href="assets/slides/GeoBFT-VLDB20.pptx">Slides</a>, <a href="https://youtu.be/FL1KXEvR-84">Video</a> ]
+                </p>
+                <p class="pub">
+                    S. Gupta, J. Hellings, T. Qadah, S. Rahnama and M. Sadoghi, Efficient Transaction Processing in Byzantine Fault Tolerant Environments, In International Workshop on High Performance Transaction Systems (Biennial), 2019. [
+                    <a href="assets/papers/hpts_abstract.pdf">Paper</a> ]
+                </p>
+                <p class="pub">
+                    Suyash Gupta, Jelle Hellings, Sajjad Rahnama, Mohammad Sadoghi, An In-Depth Look of BFT Consensus in Blockchain: Challenges and Opportunities <b>Proceedings of the 20th International Middleware Conference Tutorials, 2019</b> [
+                    <a href="https://dl.acm.org/doi/abs/10.1145/3366625.3369437">Paper</a> ]
+                </p>
+
+                <br>
+            </div>
+
         </div>
-
     </div>
-</div>
-<!--//about-->
+    <!--//about-->
 
-<!--education-->
-<div id="education" class="education">
+    <!--education-->
+    <!-- <div id="education" class="education">
     <div class="container">
         <h3 class="title">Education</h3>
         <div class="work-info">
@@ -227,56 +263,59 @@ Author URL: http://ceit.aut.ac.ir/~sajjad
             <div class="clearfix"></div>
         </div>
     </div>
-</div>
-<!--//education-->
+</div> -->
+    <!--//education-->
 
-<div class="welcome contact" id="contact">
-    <div class="container">
-        <h3 class="title">Contact Me</h3>
-        <div class="contact-row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6 contact-right">
-                <div class="address-left">
-                    <p>2392, Academic Surge, 1124 Crocker Ln, Davis, CA</p>
-                </div>
-                <div class="address-right">
-                    <p>E-mail : <a href="mailto:sajjad@ucdavis.edu"> sajjad@ucdavis.edu</a></p>
-                    <a href="https://t.me/sajjadrahnama"> Telegram </a>
+    <div class="welcome contact" id="contact">
+        <div class="container">
+            <h3 class="title">Contact Me</h3>
+            <div class="contact-row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 contact-right">
+                    <div class="address-left">
+                        <p>2392, Academic Surge, 1124 Crocker Ln, Davis, CA</p>
+                    </div>
+                    <div class="address-right">
+                        <p>E-mail : <a href="mailto:sajjad@ucdavis.edu"> sajjad@ucdavis.edu</a></p>
+                        <a href="https://t.me/sajjadrahnama"> Telegram </a>
+                    </div>
+                    <div class="clearfix"></div>
                 </div>
                 <div class="clearfix"></div>
             </div>
-            <div class="clearfix"></div>
         </div>
     </div>
-</div>
-<!--//contact -->
-<!--footer-->
-<div class="footer">
-    <div class="container">
-        <p>© 2018 Sajjad Rahnama. All rights reserved <a href="https://sajjadrahnama.com">sajjadrahnama.com</a>
-        </p>
+    <!--//contact -->
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <p>© 2018 Sajjad Rahnama. All rights reserved <a href="https://sajjadrahnama.com">sajjadrahnama.com</a>
+            </p>
+        </div>
     </div>
-</div>
-<!--//footer-->
-<!--smooth-scrolling-of-move-up-->
-<script type="text/javascript">
-    $(document).ready(function () {
+    <!--//footer-->
+    <!--smooth-scrolling-of-move-up-->
+    <script type="text/javascript">
+        $(document).ready(function() {
 
-        var defaults = {
-            containerID: 'toTop', // fading element id
-            containerHoverID: 'toTopHover', // fading element hover id
-            scrollSpeed: 1200,
-            easingType: 'linear'
-        };
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+            };
 
-        $().UItoTop({easingType: 'easeOutQuart'});
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
 
-    });
-</script>
-<!--//smooth-scrolling-of-move-up-->
-<!-- Bootstrap core JavaScript
+        });
+    </script>
+    <!--//smooth-scrolling-of-move-up-->
+    <!-- Bootstrap core JavaScript
 ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<!-- <script src="js/bootstrap.js"></script> -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <script src="js/bootstrap.js"></script> -->
 </body>
+
 </html>
