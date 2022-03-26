@@ -1332,8 +1332,12 @@ h2.resp-accordion {
 /*--//responsive-design---*/
 
 #publications .pub {
-    display: list-item;
-    list-style-type: disc;
-    list-style-position: inside;
+    
     margin-bottom: 1em;
+}
+#publications .pub .pub_bullet{
+    font-size: 1.1em;
+}
+#publications .pub .published_conference{
+    margin-left: 1.1em;
 }
