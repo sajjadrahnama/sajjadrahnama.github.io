@@ -48,8 +48,8 @@ Author URL: http://ceit.aut.ac.ir/~sajjad
     <script src="dist/vendor.js"></script>
     <script src="dist/app.js"></script>
     <script type="text/javascript">
-        jQuery(document).ready(function($) {
-            $(".scroll").click(function(event) {
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
                 event.preventDefault();
                 $('html,body').animate({
                     scrollTop: $(this.hash).offset().top
@@ -76,21 +76,24 @@ Author URL: http://ceit.aut.ac.ir/~sajjad
                     <ul class="address">
                         <li>
                             <ul class="address-text">
-                                <li><b>E-MAIL </b></li>
-                                <li><a href="mailto:sajjad@ucdavis.edu"> sajjad@ucdavis.edu</a></li>
+                                <li style="vertical-align: top;"><b>E-MAIL </b></li>
+                                <li>
+                                    <a href="mailto:sajjad@ucdavis.edu"> sajjad@ucdavis.edu</a><br>
+                                    <a href="mailto:sajjad.rahnama7@gmail.com"> sajjad.rahnama7@gmail.com</a>
+                                </li>
                             </ul>
                         </li>
                         <li>
                             <ul class="address-text">
                                 <li><b>Curriculum Vitae </b></li>
-                                <li><a href="/CV.pdf"> CV.pdf</a></li>
+                                <li><a href="/CV.pdf" target="_blank"> CV.pdf</a></li>
                             </ul>
                         </li>
                         <li>
                             <ul class="address-text">
                                 <li><b>LINKEDIN </b></li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/sajjadrahnama/">
+                                    <a href="https://bit.ly/3iyR97g" target="_blank">
                                         <img style="width: 20px" src="assets/images/in.svg" alt="">
                                     </a>
                                 </li>
@@ -100,7 +103,7 @@ Author URL: http://ceit.aut.ac.ir/~sajjad
                             <ul class="address-text">
                                 <li><b>DBLP </b></li>
                                 <li>
-                                    <a href="https://dblp.uni-trier.de/pers/hd/r/Rahnama:Sajjad">
+                                    <a href="https://bit.ly/3qBMLJ3" target="_blank">
                                         <img style="width: 100px" src="assets/images/dblp.png" alt="">
                                     </a>
                                 </li>
@@ -108,8 +111,22 @@ Author URL: http://ceit.aut.ac.ir/~sajjad
                         </li>
                         <li>
                             <ul class="address-text">
-                                <li><b>WEBSITE </b></li>
-                                <li><a href="https://sajjadrahnama.com">sajjadrahnama.com</a></li>
+                                <li><b>Google Scholar </b></li>
+                                <li>
+                                    <a href="https://bit.ly/3qEJ2ul" target="_blank">
+                                        <img style="width:35px;" src="assets/images/scholar.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="address-text">
+                                <li><b>Twitter </b></li>
+                                <li>
+                                    <a href="https://bit.ly/36nuisZ" target="_blank">
+                                        <img style="margin-left:3px; width:30px" src="assets/images/twitter.png" alt="">
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                     </ul>
@@ -118,7 +135,6 @@ Author URL: http://ceit.aut.ac.ir/~sajjad
             </div>
         </div>
     </div>
-    <!--//banner-->
     <!--top-nav-->
     <div class="top-nav wow">
         <div class="container">
@@ -143,19 +159,21 @@ Author URL: http://ceit.aut.ac.ir/~sajjad
             </div>
         </div>
     </div>
-    <!--//top-nav-->
     <!--about-->
     <div id="about" class="about" style="padding-bottom:0;">
         <div class="container">
             <h3 class="title"> About Me</h3>
             <div class="col-md-12 about-part">
                 <p>
-
-                    I am Sajjad Rahnama, Ph.D. Candidate at Department of<a href="http://www.cs.ucdavis.edu/" target="_blank">Computer
-                        Science</a> of the
-                    <a href="https://ucdavis.edu" target="_blank">University of California, Davis</a> supervised by Prof. <a href="https://msadoghi.github.io">Mohammad Sadoghi</a>. I’m also a member of
-                    <a href="https://msadoghi.github.io">Exploratory Systems Lab</a>.My current research focuses on the geo-scale byzantine fault tolerant protocols, distributed systems, and their applications in blockchain and secure transaction processing.
-                    I am also system designer and main developer of <a href="http://resilientdb.github.io/"><b>ResilientDB</b></a>. I got my B.Sc. in Computer Science from Amirkabir University of Technology, Tehran, Iran.
+                    I am Sajjad Rahnama, Ph.D. Candidate at Department of
+                    <a href="http://www.cs.ucdavis.edu/" target="_blank">Computer Science</a> of the
+                    <a href="https://ucdavis.edu" target="_blank">University of California, Davis</a>
+                    supervised by Prof. <a href="https://msadoghi.github.io">Mohammad Sadoghi</a>.
+                    I’m also a member of <a href="https://msadoghi.github.io"> Exploratory Systems Lab</a>.
+                    My current research focuses on the geo-scale byzantine fault tolerant protocols, distributed systems,
+                    and their applications in blockchain and secure transaction processing.
+                    I am also system designer and main developer of <a href="http://resilientdb.github.io/"><b>ResilientDB</b></a>.
+                    I got my B.Sc. in Computer Science from Amirkabir University of Technology, Tehran, Iran.
                 </p>
                 <br>
             </div>
@@ -173,15 +191,15 @@ Author URL: http://ceit.aut.ac.ir/~sajjad
                 <div class="clearfix"></div>
             </div>
 
-            <!--        <div class="col-md-4 col-xs-12 about-part right">-->
-            <!--            <ul>-->
-            <!--                <h5>Major Hobbies</h5>-->
-            <!--                <li><span class="glyphicon glyphicon-menu-right"></span> Listening to Alt Rock Music</li>-->
-            <!--                <li><span class="glyphicon glyphicon-menu-right"></span> Playing Drums</li>-->
-            <!--                <li><span class="glyphicon glyphicon-menu-right"></span> Hiking</li>-->
-            <!--            </ul>-->
-            <!--            <div class="clearfix"></div>-->
-            <!--        </div>-->
+            <!-- <div class="col-md-4 col-xs-12 about-part right">
+                <ul>
+                    <h5>Major Hobbies</h5>
+                    <li><span class="glyphicon glyphicon-menu-right"></span> Listening to Alt Rock Music</li>
+                    <li><span class="glyphicon glyphicon-menu-right"></span> Playing Drums</li>
+                    <li><span class="glyphicon glyphicon-menu-right"></span> Hiking</li>
+                </ul>
+                <div class="clearfix"></div>
+            </div> -->
 
             <div class="clearfix"></div>
         </div>
@@ -194,51 +212,96 @@ Author URL: http://ceit.aut.ac.ir/~sajjad
             <h3 class="title"> Publications</h3>
             <div class="col-md-12 about-part">
                 <p class="pub">
-                    Suyash Gupta, Sajjad Rahnama, Erik Linsenmayer, Faisal Nawab, Mohammad Sadoghi, Reliable Transactions in Serverless-Edge Architecture [Under Submission] [<a href="https://arxiv.org/pdf/2201.00982.pdf">Paper</a>]
+                    Suyash Gupta, Sajjad Rahnama, Erik Linsenmayer, Faisal Nawab, Mohammad Sadoghi, Reliable Transactions in Serverless-Edge Architecture [Under Submission]
+                    [
+                    <a href="https://arxiv.org/pdf/2201.00982.pdf">Paper</a>
+                    ]
                 </p>
                 <p class="pub">
-                    Sajjad Rahnama, Suyash Gupta, Rohan Sogani, Dhruv Krishnan, Mohammad Sadoghi, RingBFT: Resilient Consensus over Sharded Ring Topology <b>International Conference on Extending Database Technology (EDBT) 2022</b> [<a href="https://arxiv.org/pdf/2107.13047.pdf">Paper</a>]
-                </p>
-
-                <p class="pub">
-                    Suyash Gupta, Jelle Hellings, Sajjad Rahnama, Mohammad Sadoghi: Proof-of-Execution: Reaching Consensus through Fault-Tolerant Speculation. <b>International Conference on Extending Database Technology (EDBT) 2021</b> [
-                    <a href="https://arxiv.org/abs/1911.00838cp">Paper</a>, <a href="assets/slides/PoE-EDBT-21.pptx">Slides</a>, <a href="https://youtu.be/cwHP_e_NOKI">Video</a> ]
-                </p>
-
-                <p class="pub">
-                    Sajjad Rahnama, Suyash Gupta, Thamir M. Qadah, Jelle Hellings, Mohammad Sadoghi, Scalable, Resilient and Configurable Permissioned Blockchain Fabric, <b>International Conference on Very Large Data Base
-                        (VLDB) 2020</b> [
-                    <a href="http://www.vldb.org/pvldb/vol13/p2893-rahnama.pdf">Paper</a>, <a href="assets/slides/ResilientDB-Demo-VLDB2020.pptx">Slides</a>, <a href="https://youtu.be/By4Ga1Lemm4">Video</a> ]
-                </p>
-
-                <p class="pub">
-                    Suyash Gupta, Jelle Hellings, Sajjad Rahnama, Mohammad Sadoghi, Building High Throughput Permissioned Blockchain Fabrics: Challenges and Opportunities, <b>International Conference on Very
-                        Large Data Base (VLDB) 2020, Tutorial</b> [
-                    <a href="http://www.vldb.org/pvldb/vol13/p3441-gupta.pdf">Paper</a>, <a href="assets/slides/Tutorial-System-VLDB 2020.pptx">Slides</a>, <a href="https://www.youtube.com/watch?v=Jj6hVs1SF3E">Video</a>]
+                    Suyash Gupta, Sajjad Rahnama, Shubham Pandey, Natacha Crooks, Mohammad Sadoghi, Dissecting BFT Consensus: In Trusted Components we Trust! [Under Submission] [
+                    <a href="https://arxiv.org/pdf/2201.00982.pdf">Paper</a>
+                    ]
                 </p>
                 <p class="pub">
-                    Suyash Gupta, Jelle Hellings, Sajjad Rahnama, Mohammad Sadoghi, Tutorial: Blockchain Consensus Unraveled: Virtues and Limitations, <b>Distributed Event-Based Systems (DEBS) 2020, Tutorial</b> [
-                    <a href="https://2020.debs.org/pdf/debs20-2.pdf">Paper</a> ]
+                    Sajjad Rahnama, Suyash Gupta, Rohan Sogani, Dhruv Krishnan, Mohammad Sadoghi, RingBFT: Resilient Consensus over Sharded Ring Topology
+                    <b>International Conference on Extending Database Technology (EDBT) 2022</b>
+                    [
+                    <a href="http://openproceedings.org/2022/conf/edbt/paper-73.pdf">Paper</a>,
+                    <a href="assets/slides/RingBFT.pdf">Slides</a>,
+                    <a href="https://www.youtube.com/embed/kxa_yZb62us">Talk</a>
+                    ]
                 </p>
 
                 <p class="pub">
-                    Sajjad Rahnama, Suyash Gupta, Mohammad Sadoghi, Permissioned Blockchain Through the Looking Glass: Architectural and Implementation Lessons Learned, <b>International Conference on Distributed
-                        Computing Systems (ICDCS) 2020</b> [
-                    <a href="https://arxiv.org/abs/1911.09208">Paper</a>, <a href="assets/slides/EvalPaper.pdf">Slides</a>, <a href="https://youtu.be/lvftXtpxEEc">Video</a> ]
+                    Suyash Gupta, Jelle Hellings, Sajjad Rahnama, Mohammad Sadoghi: Proof-of-Execution: Reaching Consensus through Fault-Tolerant Speculation.
+                    <b>International Conference on Extending Database Technology (EDBT) 2021</b>
+                    [
+                    <a href="https://arxiv.org/abs/1911.00838cp">Paper</a>,
+                    <a href="assets/slides/PoE-EDBT-21.pptx">Slides</a>,
+                    <a href="https://youtu.be/cwHP_e_NOKI" target="_blank">Talk</a>
+                    ]
                 </p>
 
                 <p class="pub">
-                    Sajjad Rahnama, Suyash Gupta, Jelle Hellings, Mohammad Sadoghi, ResilientDB: Global Scale Resilient Blockchain Fabric, <b>International Conference on Very Large Data Base (VLDB) 2020 [<a
-                            href="https://vldb-repro.com/">pVLDB Reproducibility Badge</a> ]</b>[
-                    <a href="http://www.vldb.org/pvldb/vol13/p868-gupta.pdf">Paper</a>, <a href="assets/slides/GeoBFT-VLDB20.pptx">Slides</a>, <a href="https://youtu.be/FL1KXEvR-84">Video</a> ]
+                    Sajjad Rahnama, Suyash Gupta, Thamir M. Qadah, Jelle Hellings, Mohammad Sadoghi, Scalable, Resilient and Configurable Permissioned Blockchain Fabric,
+                    <b>International Conference on Very Large Data Base(VLDB) 2020</b>
+                    [
+                    <a href="http://www.vldb.org/pvldb/vol13/p2893-rahnama.pdf">Paper</a>,
+                    <a href="assets/slides/ResilientDB-Demo-VLDB2020.pptx">Slides</a>,
+                    <a href="https://youtu.be/By4Ga1Lemm4">Video</a>
+                    ]
+                </p>
+
+                <p class="pub">
+                    Suyash Gupta, Jelle Hellings, Sajjad Rahnama, Mohammad Sadoghi, Building High Throughput Permissioned Blockchain Fabrics: Challenges and Opportunities,
+                    <b>International Conference on Very Large Data Base (VLDB) 2020, Tutorial</b>
+                    [
+                    <a href="http://www.vldb.org/pvldb/vol13/p3441-gupta.pdf">Paper</a>,
+                    <a href="assets/slides/Tutorial-System-VLDB 2020.pptx">Slides</a>,
+                    <a href="https://www.youtube.com/watch?v=Jj6hVs1SF3E">Video</a>
+                    ]
                 </p>
                 <p class="pub">
-                    S. Gupta, J. Hellings, T. Qadah, S. Rahnama and M. Sadoghi, Efficient Transaction Processing in Byzantine Fault Tolerant Environments, In International Workshop on High Performance Transaction Systems (Biennial), 2019. [
-                    <a href="assets/papers/hpts_abstract.pdf">Paper</a> ]
+                    Suyash Gupta, Jelle Hellings, Sajjad Rahnama, Mohammad Sadoghi, Tutorial: Blockchain Consensus Unraveled: Virtues and Limitations,
+                    <b>Distributed Event-Based Systems (DEBS) 2020, Tutorial</b>
+                    [
+                    <a href="https://2020.debs.org/pdf/debs20-2.pdf">Paper</a>
+                    ]
+                </p>
+
+                <p class="pub">
+                    Sajjad Rahnama, Suyash Gupta, Mohammad Sadoghi, Permissioned Blockchain Through the Looking Glass: Architectural and Implementation Lessons Learned
+                    <b>International Conference on Distributed Computing Systems (ICDCS) 2020</b>
+                    [
+                    <a href="https://arxiv.org/abs/1911.09208">Paper</a>,
+                    <a href="assets/slides/EvalPaper.pdf">Slides</a>,
+                    <a href="https://youtu.be/lvftXtpxEEc">Video</a>
+                    ]
+                </p>
+
+                <p class="pub">
+                    Sajjad Rahnama, Suyash Gupta, Jelle Hellings, Mohammad Sadoghi, ResilientDB: Global Scale Resilient Blockchain Fabric,
+                    <b>International Conference on Very Large Data Base (VLDB) 2020 </b>
+                    [
+                    <a href="#">pVLDB Reproducibility Badge</a>,
+                    <a href="http://www.vldb.org/pvldb/vol13/p868-gupta.pdf">Paper</a>,
+                    <a href="assets/slides/GeoBFT-VLDB20.pptx">Slides</a>,
+                    <a href="https://youtu.be/FL1KXEvR-84">Video</a>
+                    ]
                 </p>
                 <p class="pub">
-                    Suyash Gupta, Jelle Hellings, Sajjad Rahnama, Mohammad Sadoghi, An In-Depth Look of BFT Consensus in Blockchain: Challenges and Opportunities <b>Proceedings of the 20th International Middleware Conference Tutorials, 2019</b> [
-                    <a href="https://dl.acm.org/doi/abs/10.1145/3366625.3369437">Paper</a> ]
+                    S. Gupta, J. Hellings, T. Qadah, S. Rahnama and M. Sadoghi, Efficient Transaction Processing in Byzantine Fault Tolerant Environments,
+                    <b>In International Workshop on High Performance Transaction Systems (Biennial), 2019</b>
+                    [
+                    <a href="assets/papers/hpts_abstract.pdf">Paper</a>
+                    ]
+                </p>
+                <p class="pub">
+                    Suyash Gupta, Jelle Hellings, Sajjad Rahnama, Mohammad Sadoghi, An In-Depth Look of BFT Consensus in Blockchain: Challenges and Opportunities
+                    <b>Proceedings of the 20th International Middleware Conference Tutorials, 2019</b>
+                    [
+                    <a href="https://dl.acm.org/doi/abs/10.1145/3366625.3369437">Paper</a>
+                    ]
                 </p>
 
                 <br>
@@ -317,7 +380,7 @@ Author URL: http://ceit.aut.ac.ir/~sajjad
     <!--//footer-->
     <!--smooth-scrolling-of-move-up-->
     <script type="text/javascript">
-        $(document).ready(function() {
+        $(document).ready(function () {
 
             var defaults = {
                 containerID: 'toTop', // fading element id
